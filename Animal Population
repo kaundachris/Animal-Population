@@ -1,7 +1,7 @@
 class AnimalPopulation:
-    def __init__(self, birth_rate: float):
-        self.present_population = 1000
-        self.max_population = 1000000
+    def __init__(self, max_population: int, present_population: int, birth_rate: float):
+        self.present_population = present_population
+        self.max_population = max_population
         self.generations = 1000
         self.birth_rate = birth_rate
 
